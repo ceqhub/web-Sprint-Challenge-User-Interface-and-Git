@@ -110,18 +110,21 @@ p {
 }
 /*middle part*/
 .about-middle {
+    
     padding:2% 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
 .about-middle div{
+    
     padding:1% 2%;
     width: 40%;
     margin-bottom: 20px;    
 }
-.about-middle .box{
+.about-middle .box{ 
+    padding: 0 20px;
     display: flex;
     justify-content: center;
 }
@@ -133,9 +136,9 @@ p {
  
 }
 button{
+    border-radius: 10px;
     margin:5px 0;
     padding:1% 5%;
-    border-radius: 10%;
     background-color:white;
 }
 footer {
